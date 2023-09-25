@@ -14,9 +14,16 @@
     ],
     "license": "MIT",
     "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hovakimyannn/core-utilities"
+        }
+    ],
+
     "require": {
         "illuminate/support": "^5.5|^5.6|^5.7|^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
-        "ptuchik/core-utilities": "^1.0",
+        "ptuchik/core-utilities": "dev-master",
         "league/omnipay": "^3.0",
         "ptuchik/braintree": "1.1.6",
         "torann/currency": "^1.0"
@@ -40,5 +47,10 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
