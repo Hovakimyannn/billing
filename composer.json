@@ -23,7 +23,7 @@
 
     "require": {
         "illuminate/support": "^5.5|^5.6|^5.7|^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
-        "ptuchik/core-utilities": "dev-master",
+        "ptuchik/core-utilities": "dev-master#2b84e598f6fb7b343b4f1f80010178c23ab24c96",
         "league/omnipay": "^3.0",
         "ptuchik/braintree": "1.1.6",
         "torann/currency": "^1.0"
